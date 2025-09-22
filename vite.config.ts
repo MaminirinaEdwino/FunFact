@@ -21,9 +21,4 @@ export default defineConfig({
       'react-router-dom',
     ],
   },
-  build: {
-    rollupOptions: {
-      external: ["react-router/dom", "react-router"],
-    },
-  }
 })
